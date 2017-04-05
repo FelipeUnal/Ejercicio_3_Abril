@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Ejercicio {
     
     public static void main(String[] args) {
+        ArrayList<Carro> n = new ArrayList<>();
         Rueda[] r = new Rueda[4];
         r[0].setAncho(20);
         r[0].setDiametro(50);
@@ -21,7 +22,7 @@ public class Ejercicio {
         Chasis ch1 = new Chasis();
         Chasis ch2 = new Chasis();
         
-        Persona x = new Persona();
+        Persona x = new Persona(n,"Fabian Giraldo","1023973050",24);
         
         Carro y1 = new Carro("2005_Sandero","LQX-123",r);
         Carro y2 = new Carro("2010_Kia_Rio","ABC-456",r);
