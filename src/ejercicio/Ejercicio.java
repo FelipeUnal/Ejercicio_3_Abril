@@ -5,6 +5,7 @@ public class Ejercicio {
     
     public static void main(String[] args) {
         ArrayList<Carro> n = new ArrayList<>();
+        
         Rueda[] r = new Rueda[4];
         r[0].setAncho(20);
         r[0].setDiametro(50);
@@ -32,5 +33,7 @@ public class Ejercicio {
         
         y1.setMotor(m1);
         y2.setMotor(m2);
+        
+        System.out.println(x.toString());
     }
 }
